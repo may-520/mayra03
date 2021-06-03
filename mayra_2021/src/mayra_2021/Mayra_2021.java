@@ -1,15 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package mayra_2021;
 
 public class Mayra_2021 {
 
     public static void main(String[] args) {
         System.out.println("version 1");
-        System.out.println("version 1.1");        
+        System.out.println("version 1.1");
+        lista l1 = new lista();
+
+        l1.crearlista();
+
+        l1.imprimir();
     }
 }
 
